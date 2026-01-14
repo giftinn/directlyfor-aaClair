@@ -30,7 +30,7 @@ const WelcomePage: React.FC<WelcomePageProps> = ({ onNext }) => {
             textShadow: '0 4px 20px rgba(236, 72, 153, 0.3)'
           }}
         >
-          Hii Kinci
+          Halo Aa Clair
         </motion.h1>
         
         <motion.div
@@ -115,4 +115,5 @@ const WelcomePage: React.FC<WelcomePageProps> = ({ onNext }) => {
 };
 
 export default WelcomePage;
+
 
