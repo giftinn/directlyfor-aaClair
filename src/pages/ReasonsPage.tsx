@@ -35,7 +35,7 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
     },
     {
       id: 4,
-      title: 'Your Beauty',
+      title: 'Your Charm',
       text: 'Your soul is the most beautiful thing I\'ve ever known.',
       isRevealed: false
     },
@@ -200,3 +200,4 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
 
 
 export default ReasonsPage;
+
