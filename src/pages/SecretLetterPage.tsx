@@ -10,16 +10,20 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `Happy birthday to someone who means more to me than words usually allow.
+  const fullText = `Haii Aa Clair! 
   
-Today is your day, and i just hope you feel surrounded by warmth, in whatever way it reaches you. I admire the way you keep going, the way you show up as yourself, and the quiet strength you carry without making a big deal out of it. It’s something i notice, and something i genuinely appreciate about you.
+first of all, i just wanted to say thank you. thank you for your time to opened this litter gift from me hehehe. isn't nothing anw, it's just a mini gift to expressing how excited i am in this moment. masih ga nyangka aja ternyata we made it! kaya nyampur tau rasanya, seneng, kaget lahh intinya.
   
-On this day, i hope you take a moment to breathe, to feel seen, and to remember that there’s someone out here who cares deeply about you. I wish i could be there in person and share the moment, to laugh a little, or simply exist in the same space.
+thank you for choosing me, aa clair. out of everyone, you chose to stay with me, and that still means a lot to me. being with you feels easy in the best way. like no pressure, no pretending, just us figuring things out together.
 
-You've been giving your best, even when things get tough. Distance doesn’t erase presence. Some people stay important, no matter how far they are. You’re one of those people. And don't forget that i love you the most, in my own way.
+i made this little website to celebrate us. not just the day we started, but all the moments that came after, late talks, small laughs, quiet support, and everything in between. it’s a reminder of how far we’ve come and how much i appreciate having you by my side.
 
-I hope this message reaches you kindly.
-Happy birthday.`;
+and one more thing, i really appreciate how being with you feels so natural. we don’t have to rush or pretend, we just grow as we go, learning from the messy parts and enjoying the good ones. i like how we keep choosing each other even when things aren’t perfect, and how your presence alone already feels reassuring. i’m genuinely grateful for the way you care, the way you stay, and how you make ordinary days feel better, aa clair.
+
+so this is just me saying thank you, honestly. thank you for choosing me, for staying, and for being you. as long as you’re here, i’m here toos till choosing you, aa clair, every single day.
+
+i hope this message reaches you kindly.
+I love you, aa Clair.`;
 
   useEffect(() => {
     let currentIndex = 0;
@@ -128,5 +132,6 @@ Happy birthday.`;
 
 
 export default SecretLetterPage;
+
 
 
